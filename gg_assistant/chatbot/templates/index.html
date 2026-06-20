@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AI Chatbot</title>
+    <style>
+      body {
+        font-family: Arial;
+        background: #0f2027;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .chat-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="chat-container">
+      <h2>AI Chatbot</h2>
+
+      <!-- Zapier Chatbot Embed -->
+      <script async type="module"
+        src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js">
+      </script>
+
+      <zapier-interfaces-chatbot-embed
+        is-popup="true"
+        chatbot-id="cmofiorjl0025zq2gz4duuqmf">
+      </zapier-interfaces-chatbot-embed>
+    </div>
+  </body>
+</html>
