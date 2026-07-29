@@ -109,7 +109,7 @@ class _CheckInScreenState extends State<CheckInScreen> {
 
               if (checkedIn)
                 Text(
-                  'Checked in at $checkInTime',
+                  'Checked in: $checkInTime',
                   style: TextStyle(fontSize: 18, color: Colors.green),
                 ),
             ],
