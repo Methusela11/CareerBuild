@@ -1,4 +1,4 @@
-// CVTemplatesPage.jsx
+
 import React from "react";
 
 const templates = [
